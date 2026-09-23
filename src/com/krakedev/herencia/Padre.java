@@ -29,7 +29,7 @@ public class Padre {
 		
 	}
 	
-	private void guardarSecreto() {
+	public void guardarSecreto() {
 		System.out.println("Esto no se hereda");
 	}
 }
