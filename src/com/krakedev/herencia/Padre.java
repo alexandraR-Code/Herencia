@@ -35,10 +35,12 @@ public class Padre {
 	
 	
 	
+//	@Override
+//	public String toString() {
+//		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
+//	}
 	@Override
 	public String toString() {
-		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
+		return "hola";
 	}
-	
-	
 }
