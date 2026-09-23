@@ -12,10 +12,9 @@ public class TestHerencia {
 		hija.setVirtudes(5);
 		hija.setDefectos(2);
 		
-		System.out.println("Virtudes: " + hija.getVirtudes());
-		System.out.println("Defectos: " + hija.getDefectos());
+		hija.imprimir();
 		
-
+		
 	}
 
 }

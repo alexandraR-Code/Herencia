@@ -1,8 +1,12 @@
 package com.krakedev.herencia;
 
+
+// atributos 
 public class Padre {
 	private  int defectos;
 	private int virtudes;
+	
+//metodos getter y setter
 	
 	public int getDefectos() {
 		return defectos;
@@ -15,5 +19,13 @@ public class Padre {
 	}
 	public void setVirtudes(int virtudes) {
 		this.virtudes = virtudes;
+	}
+	
+//metodo impirmir atributos 
+	
+	public void imprimir() {
+		System.out.println("Virtudes: " + virtudes);
+		System.out.println("Defectos: " + defectos);
+		
 	}
 }
