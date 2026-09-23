@@ -39,8 +39,8 @@ public class Padre {
 //	public String toString() {
 //		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
 //	}
-	@Override
-	public String toString() {
-		return "hola";
+	
+	public Padre() {
+		System.out.println("Soy el constructor vacio del padre");
 	}
 }
