@@ -32,4 +32,10 @@ public class Padre {
 	public void guardarSecreto() {
 		System.out.println("Esto no se hereda");
 	}
+	
+	
+	
+	public String toString() {
+		return " Defectos: " + defectos + " Virtudes: " + virtudes;
+	}
 }

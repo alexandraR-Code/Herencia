@@ -11,8 +11,7 @@ public class TestToString {
 		
 		System.out.println(p);
 		
-		p.toString();
-		System.out.println(p.toString());
+		
 
 	}
 
