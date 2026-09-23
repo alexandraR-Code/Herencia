@@ -6,9 +6,10 @@ public class Hija extends Padre {
 	public void escucharBanBunny() {
 		System.out.println("Escuchando esta musica horrible");
 	}
-	  public Hija() {
-		  super();
-	  }
+	 
+	public Hija() {
+		super(2, 5);
+	}
 	
 	
 	

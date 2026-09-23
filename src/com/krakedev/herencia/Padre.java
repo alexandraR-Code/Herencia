@@ -40,7 +40,16 @@ public class Padre {
 //		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
 //	}
 	
-	public Padre() {
-		System.out.println("Soy el constructor vacio del padre");
+	
+	
+	
+//ublic Padre() {
+//System.out.println("Soy el constructor vacio del padre");
+//
+	public Padre(int virtudes, int defectos) {
+		this.defectos = defectos;
+		this.virtudes = virtudes;
+		
 	}
+	
 }
