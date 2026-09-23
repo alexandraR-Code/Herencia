@@ -28,4 +28,8 @@ public class Padre {
 		System.out.println("Defectos: " + defectos);
 		
 	}
+	
+	private void guardarSecreto() {
+		System.out.println("Esto no se hereda");
+	}
 }
