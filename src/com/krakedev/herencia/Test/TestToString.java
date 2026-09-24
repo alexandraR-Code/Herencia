@@ -7,7 +7,7 @@ public class TestToString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Padre p = new Padre(5, 3);
+		Padre p = new Padre(5, 3, "Ana");
 		
 		System.out.println(p);
 		

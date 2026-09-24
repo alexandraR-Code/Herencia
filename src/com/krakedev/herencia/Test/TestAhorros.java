@@ -9,7 +9,7 @@ public class TestAhorros {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Padre p = new Padre(2, 2);
+		Padre p = new Padre(2, 2, "Carlos");
 		p.ahorrar(2.5);
 		System.out.println(p);
 		
@@ -17,7 +17,7 @@ public class TestAhorros {
 		h.ahorrar(2.5);
 		System.out.println(h);
 		
-		Hijo h1 = new Hijo(2,5,2);
+		Hijo h1 = new Hijo(2,5,2,"Pedro");
 		h1.ahorrar(2.5);
 		System.out.println(h1);
 

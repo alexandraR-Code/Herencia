@@ -6,8 +6,15 @@ public class Padre {
 	private  int defectos;
 	private int virtudes;
 	private double totalAhorrado;
-	
+	private String nombre;	
 //metodos getter y setter
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 	
 	public double getTotalAhorrado() {
 		return totalAhorrado;
@@ -40,9 +47,10 @@ public class Padre {
 		System.out.println("Esto no se hereda");
 	}
 	
-	public Padre(int virtudes, int defectos){
+	public Padre(int virtudes, int defectos, String nombre) {
 		this.defectos = defectos;
 		this.virtudes = virtudes;
+		this.nombre = nombre;
 		
 	}
 	
@@ -52,7 +60,7 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "Defectos: " + defectos + " Virtudes: " + virtudes + " Total ahorro: " + totalAhorrado;
+		return "Defectos: " + defectos + " Virtudes: " + virtudes + " Total ahorro: " + totalAhorrado + " Nombre: " + nombre;
 	}
 	
 }

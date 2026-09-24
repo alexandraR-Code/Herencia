@@ -8,7 +8,7 @@ public class Hija extends Padre {
 	}
 	 
 	public Hija() {
-		super(2, 5);
+		super(2, 5, "Ana");
 	}
 	
 	
