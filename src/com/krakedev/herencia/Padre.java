@@ -33,19 +33,6 @@ public class Padre {
 		System.out.println("Esto no se hereda");
 	}
 	
-	
-	
-//	@Override
-//	public String toString() {
-//		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
-//	}
-	
-	
-	
-	
-//ublic Padre() {
-//System.out.println("Soy el constructor vacio del padre");
-//
 	public Padre(int virtudes, int defectos) {
 		this.defectos = defectos;
 		this.virtudes = virtudes;
