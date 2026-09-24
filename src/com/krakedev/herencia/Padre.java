@@ -5,9 +5,16 @@ package com.krakedev.herencia;
 public class Padre {
 	private  int defectos;
 	private int virtudes;
+	private double totalAhorrado;
 	
 //metodos getter y setter
 	
+	public double getTotalAhorrado() {
+		return totalAhorrado;
+	}
+	public void setTotalAhorrado(double totalAhorrado) {
+		this.totalAhorrado = totalAhorrado;
+	}
 	public int getDefectos() {
 		return defectos;
 	}
@@ -33,10 +40,14 @@ public class Padre {
 		System.out.println("Esto no se hereda");
 	}
 	
-	public Padre(int virtudes, int defectos) {
+	public Padre(int virtudes, int defectos){
 		this.defectos = defectos;
 		this.virtudes = virtudes;
 		
+	}
+	
+	public void ahorrar(double monto) {
+		totalAhorrado += monto;
 	}
 	
 }

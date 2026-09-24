@@ -13,13 +13,13 @@ public class Hijo extends Padre{
 	}
 	
 	public Hijo(int virtudes, int defectos, int juguetes) {
-		super(virtudes, defectos);
-		this.juguetes = juguetes; 
+	    super(virtudes, defectos);
+	    this.juguetes = juguetes;
 	}
 	
 	@Override
 	public String toString() {
-		return "Defectos: " + getDefectos() + " Virtudes: " + getVirtudes() + " Juguetes: " + juguetes;
+		return "Defectos: " + getDefectos() + " Virtudes: " + getVirtudes() + " Ahorro total: " + getTotalAhorrado() + " Juguetes: " + juguetes;
 	}
 	
 	
