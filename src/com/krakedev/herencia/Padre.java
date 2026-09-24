@@ -50,4 +50,9 @@ public class Padre {
 		totalAhorrado += monto;
 	}
 	
+	@Override
+	public String toString() {
+		return "Defectos: " + defectos + " Virtudes: " + virtudes + " Total ahorro: " + totalAhorrado;
+	}
+	
 }
